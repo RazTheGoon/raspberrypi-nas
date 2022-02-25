@@ -2,14 +2,14 @@
 A walkthrough of setting up an extremely cheap, but effective home NAS (network attached storage) using a free software called openmediavault.  
   
 ## Preamble
-Everyone needs a NAS. Whether you need network attached storage for a home office scenario, a media server, or anything else. You really dont know what you're missing until you try it. As someone with multiple machines all over the house, its nice to have one centeral place to drop files and be able to access them all over my network (and outside too). The RaspberryPi is a great way to test this concept out and on a budget too. Plus it uses opensource software and has endless accessories. Some upgrades let you run M.2 drives. Some let you setup full raid...ON A PI. So, without further ado, lets get right into it.  
+Everyone needs a NAS. Whether you need network attached storage for a home office scenario, a media server, or anything else. You really dont know what you're missing until you try it. As someone with multiple machines all over the house, its great to have one central place to drop files and be able to access them all over my network. The RaspberryPi is a great way to test this concept out and on a budget too. Plus it uses opensource software and has endless accessories and addons. Some upgrades let you run M.2 drives. Some let you setup full raid...ON A PI. So, without further ado, lets get right into it.  
   
 ## Heres What you'll need
 ![S](Images/WhatYouNeed.jpg)   
 
 ### A RaspberryPi 3 or 4 with SD card and usb>sd interface
 I am using the RaspberryPi 4 4gb model. I got a starter kit from Canakit a while back which came with all of the things needed to get it up and running (https://www.canakit.com/raspberry-pi-4-starter-kit.html) This guide will assume that is whats being used but this can work in multiple other ways and there are multiple other kits.  
-Pi' are highly customisable. So mess around and have fun!  
+Pi' are highly customisable. So just mess around and have fun!  
   
 ### Some form of storage
 I will be using a 2TB external hard drive from Seagate for now, but there are some cool board and case kits out there which allow m.2 and sata drives to be used in a pi. They also look great because it makes it a single, compact, and self contained setup. However, we are on a budget today.   
