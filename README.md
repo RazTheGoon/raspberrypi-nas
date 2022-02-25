@@ -54,10 +54,14 @@ You may also want to setup a static Ip address for the pi in your router's confi
   
 ### Step 4
 Update and Upgrade  
+  
 ``sudo apt update && sudo apt upgrade -y`` 
+  
 ![S](Images/UpdateUpgrade.png)
 Reboot  
+  
 ``sudo reboot``  
+  
 You will loose your SSH connection but once the pi reboots you can login again.  
 
 ### Step 5
@@ -74,6 +78,7 @@ Run these three commands one after the other to download, modify, and execute th
 ### Step 6
 Access the web interface.  
 First make sure nginx is running on your Pi  
+  
 ``sudo systemctl status nginx``  
   
 ![S](Images/Nginx.png)  
